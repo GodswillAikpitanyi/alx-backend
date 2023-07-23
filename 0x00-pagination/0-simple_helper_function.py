@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
+"""  Simple helper function
+"""
+from typing import Tuple
 
-def index_range(page, page_size):
+
+def index_range(page: int, page_size: int) -> Tuple[int, int]:
 
     """ Calculate the start index based on the given page number & page size"""
     start_index = (page - 1) * page_size
