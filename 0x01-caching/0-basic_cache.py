@@ -16,7 +16,6 @@ class BasicCache(BaseCaching):
             return
         self.cache_data[key] = item
 
-
     def get(self, key):
         """Retrieves an item by key.
         """
