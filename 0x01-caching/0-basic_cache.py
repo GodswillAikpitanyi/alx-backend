@@ -1,5 +1,6 @@
-#!/usr/bin/python3
-""" Defines Class Basic Cache """
+#!/usr/bin/env python3
+""" Defines Class Basic Cache
+"""
 
 from base_caching import BaseCaching
 
@@ -12,7 +13,7 @@ class BasicCache(BaseCaching):
         """ Adds data to the cache
         """
         if key is None or item is None:
-            pass
+            return
         self.cache_data[key] = item
 
 
